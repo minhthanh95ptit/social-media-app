@@ -7,9 +7,6 @@ Day1:
         - npm i -D nodemon 
         - create mongodb cluster
 
-
-
-
     - Client: 
         - npx create-react-app client
         - npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment
