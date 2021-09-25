@@ -6,8 +6,6 @@ const authCtrl = {
     register: async(req, res) => {
         try{
             const { fullname, username, email, password, gender} = req.body
-            console.log(req.body);
-            console.log(username);
             let newUserName = username.toLowerCase().replace(/ /g, '')
             
             const userName = await Users.findOne({
@@ -98,8 +96,6 @@ const authCtrl = {
     generateAccessToken: async(req, res) => {
         try{
             const rf_token = req.cookies.refreshtoken
-            console.log(rf_token)
-
             if(!rf_token) return res.status(400).json({msg: "Please login now."})
             jwt.verify(rf_token, process.env.REFRESH_TOKEN_SECRET, async(err, result) =>{
                 if(err) return res.status(400).json({msg: "Please login now."})
