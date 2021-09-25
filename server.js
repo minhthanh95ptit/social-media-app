@@ -11,6 +11,10 @@ app.use(express.json())
 app.use(cors())
 app.use(cookieParser())
 
+
+// Routes
+app.use('/api', require('./routes/authRouter'))
+
 app.get('/', (req, res) =>{
     res.json({msg: "Hello"})
 })

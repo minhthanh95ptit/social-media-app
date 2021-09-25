@@ -34,3 +34,10 @@ code {
   height: 100%;
   margin: auto;
 }
+
+
+/* --AUTH */
+@import url("./styles/auth.css");
+
+/* -- LOADING */
+@import url("./styles/loading.css");
