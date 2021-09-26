@@ -7,9 +7,6 @@ Day1:
         - npm i -D nodemon 
         - create mongodb cluster
 
-
-
-
     - Client: 
         - npx create-react-app client
         - npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment
@@ -32,3 +29,8 @@ day 4:
     rafce => React function
 
       &times; => X button
+
+day 5:
+    import { postDataAPI } from "../../untils/fetchData" => Object
+    import { GLOBALTYPES } from "./globalTypes" => Object
+    import valid from '../../untils/valid' => function
