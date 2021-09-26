@@ -29,3 +29,8 @@ day 4:
     rafce => React function
 
       &times; => X button
+
+day 5:
+    import { postDataAPI } from "../../untils/fetchData" => Object
+    import { GLOBALTYPES } from "./globalTypes" => Object
+    import valid from '../../untils/valid' => function
