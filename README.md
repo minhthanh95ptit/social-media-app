@@ -34,3 +34,7 @@ day 5:
     import { postDataAPI } from "../../untils/fetchData" => Object
     import { GLOBALTYPES } from "./globalTypes" => Object
     import valid from '../../untils/valid' => function
+
+    {auth.token && <Header />} -> Co token thi hien, khong thi k hien
+
+    15:37 -- 
